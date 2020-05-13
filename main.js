@@ -23,7 +23,8 @@ function getTableData(table) {
     function createHighcharts(data){
         Highcharts.chart("chart", {
         chart: {
-        zoomType: 'xy'
+        zoomType: 'xy',
+        color: "blue"
         },
         title: {
         text: "Coronavirus Outbreak in the US"
