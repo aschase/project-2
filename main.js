@@ -24,7 +24,6 @@ function getTableData(table) {
         Highcharts.chart("chart", {
         chart: {
         zoomType: 'xy'
-        color: "blue"
         },
         title: {
         text: "Coronavirus Outbreak in the US"
